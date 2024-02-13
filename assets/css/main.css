@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+.iris {
+	font-size: 8vw !important;
+	color: rgb(241,222,218) !important;
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -4620,7 +4626,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
