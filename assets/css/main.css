@@ -3309,6 +3309,8 @@ input, select, textarea {
 		position: relative;
 		cursor: default;
 		text-align: center;
+		top: 50%;
+		-webkit-transform: translateY(-50%, -50%);
 		z-index: 1;
 		min-height: 100%;
 	}
