@@ -4686,3 +4686,13 @@ input, select, textarea {
 		}
 
 	}
+
+
+/* Teammeet styling */
+
+
+.team-member img {
+	width: 80px; /* Adjust the size as needed */
+  height: 80px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image round */
+}
