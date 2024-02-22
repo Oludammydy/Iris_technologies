@@ -3387,7 +3387,7 @@ input, select, textarea {
 
 		#intro h1 {
 			font-size: 5rem;
-			line-height: 1;
+			line-height: 3;
 		}
 
 		#intro p {
@@ -3489,6 +3489,28 @@ input, select, textarea {
 				}
 
 		}
+
+		@media screen and (max-width: 436px) {
+
+			#intro {
+				padding: 2rem 1rem 0rem 1rem ;
+				min-height: 40vh;
+			}
+
+			#intro h1 {
+				font-size: 2.5rem;
+				line-height: 1.1;
+			}
+
+			#intro p {
+				font-size: 0.9rem;
+				margin-top: 0rem;
+			}	
+			
+		}
+
+
+
 
 /* Header */
 
